@@ -1,0 +1,28 @@
+﻿var artists = {
+    a: [{ n: "Stewart Lee", d: "Fri 3 May", v: " Machynlleth Bowling Club" },
+        { n: "Isy Suttie", d: "Fri 3 May", v: " Owain Glyndwr Centre" },
+        { n: "Joe Lycett", d: "Fri 3 May", v: " Owain Glyndwr Centre" },
+        { n: "Nick Helm", d: "Fri 3 May", v: " Y Plas" },
+        { n: "Mark Thomas", d: "Fri 3 May", v: " Y Tabernacl" },
+        { n: "Holly Walsh", d: "Fri 3 May", v: " Machynlleth Bowling Club" },
+        { n: "Bridget Christie", d: "Fri 3 May", v: " Machynlleth Bowling Club" },
+        { n: "John-Luke Roberts", d: "Fri 3 May", v: " Owain Glyndwr Centre" },
+        { n: "Pappy's", d: "Fri 3 May", v: " Y Tabernacl" },
+        { n: "Various", d: "Fri 3 May", v: " Y Plas" },
+        { n: "Matthew Crosby", d: "Sat 4 May", v: " Y Plas" },
+        { n: "New Act Showcase", d: "Sat 4 May", v: " Owain Glyndwr Centre" },
+        { n: "Chris Boyd and Stuart Laws", d: "Sat 4 May", v: " Owain Glyndwr Centre" },
+        { n: "Cariad Lloyd", d: "Sat 4 May", v: " Y Plas" },
+        { n: "Nish Kumar", d: "Sat 4 May", v: " Owain Glyndwr Centre" },
+        { n: "Pat Cahill", d: "Sat 4 May", v: " Owain Glyndwr Centre" },
+        { n: "Owen Niblock", d: "Sat 4 May", v: " Royal House" },
+        { n: "Various", d: "Sat 4 May", v: " Y Plas" },
+        { n: "Mark Thomas", d: "Sat 4 May", v: " Y Tabernacl" },
+        { n: "Flange Krammer", d: "Sat 4 May", v: " Owain Glyndwr Centre" },
+        { n: "Mike Parker", d: "Sat 4 May", v: " Machynlleth Rugby Club" },
+        { n: "Jenny Fawcett", d: "Sat 4 May", v: " Royal House" },
+        { n: "Edward Aczel", d: "Sat 4 May", v: " Owain Glyndwr Centre" },
+        { n: "Sara Pascoe", d: "Sat 4 May", v: " Y Plas" },
+        { n: "Mike Wozniak", d: "Sat 4 May", v: " Y Plas" }, ]
+};
+
