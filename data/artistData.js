@@ -1,0 +1,28 @@
+﻿var artists = {
+        "Stewart Lee"       : {d: "Fri 3 May", v: " Machynlleth Bowling Club"   , i: "JoshWiddicombe.jpg"      },
+        "Isy Suttie"        : {d: "Fri 3 May", v: " Owain Glyndwr Centre"       , i: "JoshWiddicombe.jpg"      },
+        "Joe Lycett"        : {d: "Fri 3 May", v: " Owain Glyndwr Centre"       , i: "JoshWiddicombe.jpg"      },
+        "Nick Helm"         : {d: "Fri 3 May", v: " Y Plas"                     , i: "isysuttie.jpg"           },
+        "Mark Thomas"       : {d: "Fri 3 May", v: " Y Tabernacl"                , i: "isysuttie.jpg"           },
+        "Holly Walsh"       : {d: "Fri 3 May", v: " Machynlleth Bowling Club"   , i: "JoshWiddicombe.jpg"      },
+        "Bridget Christie"  : {d: "Fri 3 May", v: " Machynlleth Bowling Club"   , i: "JoshWiddicombe.jpg"      },
+        "John-Luke Roberts" : {d: "Fri 3 May", v: " Owain Glyndwr Centre"       , i: "JoshWiddicombe.jpg"      },
+        "Pappy's"           : {d: "Fri 3 May", v: " Y Tabernacl"                , i: "NickHelm.jpg"            },
+        "Various"           : {d: "Fri 3 May", v: " Y Plas"                     , i: "NickHelm.jpg"            },
+        "Matthew Crosby"    : {d: "Sat 4 May", v: " Y Plas"                     , i: "NickHelm.jpg"            },
+        "New Act Showcase"  : {d: "Sat 4 May", v: " Owain Glyndwr Centre"       , i: "NickHelm.jpg"            },
+        "Chris Boyd"        : {d: "Sat 4 May", v: " Owain Glyndwr Centre"       , i: "BridgetChristie.jpg"     },
+        "Cariad Lloyd"      : {d: "Sat 4 May", v: " Y Plas"                     , i: "BridgetChristie.jpg"     },
+        "Nish Kumar"        : {d: "Sat 4 May", v: " Owain Glyndwr Centre"       , i: "BridgetChristie.jpg"     },
+        "Pat Cahill"        : {d: "Sat 4 May", v: " Owain Glyndwr Centre"       , i: "NickHelm.jpg"            },
+        "Owen Niblock"      : {d: "Sat 4 May", v: " Royal House"                , i: "NickHelm.jpg"            },
+        "Various"           : {d: "Sat 4 May", v: " Y Plas"                     , i: "NickHelm.jpg"            },
+        "Mark Thomas"       : {d: "Sat 4 May", v: " Y Tabernacl"                , i: "BrianGittins.jpg"        },
+        "Flange Krammer"    : {d: "Sat 4 May", v: " Owain Glyndwr Centre"       , i: "BrianGittins.jpg"        },
+        "Mike Parker"       : {d: "Sat 4 May", v: " Machynlleth Rugby Club"     , i: "BrianGittins.jpg"        },
+        "Jenny Fawcett"     : {d: "Sat 4 May", v: " Royal House"                , i: "NickHelm.jpg"            },
+        "Edward Aczel"      : {d: "Sat 4 May", v: " Owain Glyndwr Centre"       , i: "NickHelm.jpg"            },
+        "Sara Pascoe"       : {d: "Sat 4 May", v: " Y Plas"                     , i: "NickHelm.jpg"            },
+        "Mike Wozniak"      : {d: "Sat 4 May", v: " Y Plas"                     , i: "NickHelm.jpg"            }
+};
+

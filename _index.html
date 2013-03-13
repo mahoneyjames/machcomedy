@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+    <script src="data/artistData.js"></script>
+    <script src="Scripts/artistDynamic.js"></script>
+    <script>
+        var prevSelection = "tab1";
+        $(document).on("click", "#navbar ul li", function () {
+            var newSelection = $(this).children("a").attr("data-tab-class");
+            $("." + prevSelection).addClass("ui-screen-hidden");
+            $("." + newSelection).removeClass("ui-screen-hidden");
+            prevSelection = newSelection;
+        });
+
+    </script>
+
+    <style>
+        .tab-content
+        {
+            width: 100%;
+            height: 250px;
+            background-color: white;
+            border-bottom-left-radius: 0.5em;
+            border-bottom-right-radius: 0.5em;
+        }
+
+            .tab-content > div
+            {
+                padding: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="content">
+            <div style="text-align: center; width: 600px; margin-left: auto; margin-right: auto;">
+                <img id="navoptions" src="images/options.png" usemap="optionMap" border="0" width="600" height="800" alt="" />
+                <map id="optionMap" name="optionMap">
+                    <area shape="rect" coords="31,291,178,439" href="#7" alt="" title="" />
+                    <area shape="rect" coords="225,295,372,443" href="#6" alt="" title="" />
+                    <area shape="rect" coords="424,295,571,443" href="#food" alt="" title="" />
+
+                    <area shape="rect" coords="32,465,179,613" href="#artistList" alt="" title="" />
+                    <area shape="rect" coords="31,634,178,782" href="#artists" alt="" title="" />
+                    <area shape="rect" coords="229,470,376,618" href="#5" alt="" title="" />
+
+                    <area shape="rect" coords="424,472,571,620" href="#artists" alt="" title="" />
+                    <area shape="rect" coords="227,636,374,784" href="#1" alt="" title="" />
+                    <area shape="rect" coords="425,637,572,785" href="#artistList" alt="" title="" />
+                </map>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="lineup">
+        <div data-role="header">
+            <h1>Line-Up</h1>
+        </div>
+
+        <div data-role="content">
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="artistList">
+        <div data-role="header">
+            <h1>Artists</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider" role="heading">A</li>
+                <li><a href="#ANGELABARNES">
+                    <img src="images/Artists/AngelaBarnes.jpg">
+                    <h2>ANGELA BARNES</h2>
+                    <p>WORK-IN-PROGRESS</p>
+                </a>
+                </li>
+                <li><a href="#ANNAFREYBURG">
+                    <img src="images/Artists/AnnaFreyburg.jpg" />
+                    <h2>ANNA FREYBURG</h2>
+                    <p>WORK-IN-PROGRESS</p>
+                </a>
+                </li>
+                <li data-role="list-divider" role="heading">B
+            </li>
+                <li><a href="#BRIANGITTINS">
+                    <img src="images/Artists/BrianGittins.jpg" />
+                    <h2>BRIAN GITTINS</h2>
+                    <p>WORK-IN-PROGRESS</p>
+                </a>
+                </li>
+            </ul>
+        </div>
+
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#page1" data-transition="fade" data-theme="" data-icon="home">Home
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#lineup" data-transition="fade" data-theme="" data-icon="grid">Lineup
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#options" data-transition="fade" data-theme="" data-icon="gear">Options
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="ANGELABARNES">
+        <div data-role="header">
+            <h1>ANGELA BARNES</h1>
+        </div>
+
+        <div data-role="content">
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <img src="images/Artists/Big/AngelaBarnes.jpg" />
+                </div>
+                <div class="ui-block-b">
+                    <h3>ANGELA BARNES</h3>
+                    <p>Sunday 5th May 7.00 PM</p>
+                    <p>Machynlleth Rugby Club</p>
+                    <p>£5.00</p>
+                </div>
+            </div>
+
+            <div data-role="navbar" id="navbar">
+                <ul>
+                    <li><a href="#" class="ui-btn-active" data-tab-class="tab1">Bio</a></li>
+                    <li><a href="#" data-tab-class="tab2">Links</a></li>
+                    <li><a href="#" data-tab-class="tab3">Goodies</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab1">
+                    <div class="ui-grid-solo">
+                        <div class="ui-block-a">
+                            <p>Join 2011 BBC New Comedy Award winner Angela Barnes for her debut solo hour in which she talks about the big stuff, you know, life, death, love, work and how rubbish she probably is at all of it...</p>
+                            <p>“Brilliantly funny” Sarah Millican</p>
+                            <p>“Hers is a world-weary and devastatingly matter-of-fact outlook on the world that really makes her stand out” The Guardian</p>
+                            <p>This show will be an hour long.</p>
+                            <p>This show is for over 16's only.</p>
+                            <p>Additional booking fees are not being charged by the festival this year, but are being incorporated into the overall advertised ticket price. Please see the website for further information.&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab2 ui-screen-hidden">
+                    Tab2
+                </div>
+                <div class="tab3 ui-screen-hidden">
+                    Tab3
+                </div>
+            </div>
+
+        </div>
+
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#page1" data-transition="fade" data-theme="" data-icon="home">Home
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#lineup" data-transition="fade" data-theme="" data-icon="grid">Lineup
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#options" data-transition="fade" data-theme="" data-icon="gear">Options
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="artists">
+        <div data-role="header">
+            <h1>Info</h1>
+        </div>
+
+        <div data-role="content">
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="map">
+        <div data-role="header">
+            <h1>MAP</h1>
+        </div>
+
+        <div data-role="content">
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="artistinfo">
+        <div data-role="header">
+            <h1>MAP</h1>
+        </div>
+
+        <div data-role="content">
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+    <div data-role="page" id="options">
+        <div data-role="header">
+            <h1>Options</h1>
+        </div>
+
+        <div data-role="content">
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+</body>
+</html>
